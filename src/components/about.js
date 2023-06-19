@@ -1,4 +1,5 @@
 import '../css/estilos.css';
+import { IconName,BiEnvelopeOpen,BiArch,BiAlarm } from "react-icons/bi";
 
 const About = () => {
     return(
@@ -12,9 +13,11 @@ const About = () => {
                     <h1>Login</h1>
                     <div class="contenedor">
                         <div class="input-contenedor">
+                            <BiEnvelopeOpen class="icon"></BiEnvelopeOpen>
                             <input type="text" placeholder="Correo"></input>
                         </div>
                         <div class="input-contenedor">
+                            <BiAlarm class="icon" />
                             <input type="password" placeholder="Contraeña"></input>
                         </div>
                         <input type="submit" value="Login" class="button" />
